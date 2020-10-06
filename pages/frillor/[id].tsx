@@ -4,18 +4,30 @@ import Head from 'next/head'
 import Date from '../../components/date'
 import utilStyles from '../../styles/utils.module.css'
 
-export default function Post({ postData }) {
+interface Props {
+  frisyrData: {
+    number: string;
+    title: string;
+    date: string;
+    contentHtml: string;
+  }
+}
+
+export default function Post({ frisyrData }: Props) {
   return (
     <Layout>
       <Head>
-        <title>{postData.title}</title>
+        <title>{frisyrData.title}</title>
       </Head>
       <article>
-        <h1 className={utilStyles.headingXl}>{postData.title}</h1>
+        <h1 className={utilStyles.headingXl} style={{display: 'flex', justifyContent: 'space-between'}}>
+          {frisyrData.title}
+          <span>#{frisyrData.number}</span>
+        </h1>
         <div className={utilStyles.lightText}>
-          <Date dateString={postData.date}/>
+          <Date dateString={frisyrData.date}/>
         </div>
-        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }}/>
+        <div dangerouslySetInnerHTML={{ __html: frisyrData.contentHtml }}/>
       </article>
     </Layout>
   )
@@ -30,10 +42,10 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const postData = await getFrisyrData(params.id)
+  const frisyrData = await getFrisyrData(params.id)
   return {
     props: {
-      postData
+      frisyrData
     }
   }
 }
