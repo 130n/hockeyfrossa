@@ -3,7 +3,7 @@ title: "Västtysk"
 date: "2020-01-02"
 ---
 
-![västtysk1](/vasttysk1.jpg) ![västtysk2](/vasttysk2.jpg) ![västtysk3](/vasttysk3.jpg)
+![västtysk1](/images/vasttysk1.jpg) ![västtysk2](/images/vasttysk2.jpg) ![västtysk3](/images/vasttysk3.jpg)
 
 > "Allt de rör vid blir till skit"
 
@@ -23,8 +23,6 @@ killen på bilden starkt överväga att odla upp en riktigt stor och fet
 porrfilmsmustasch på överläppen, för att då automatisk besitta den högst
 rankade "västtyska hockeyn" på marknaden, den s.k. "überhockeyn".
 
-![västtysk2](/vasttysk2.jpg)
-
 Anledningen till att den kallas västtysk är att denna typ av "hockey" 
 inte används av invånarna i det forna östblocket trots murens fall, 
 de använder sig istället av den "Tjeckiska hockeyn". 
@@ -39,8 +37,6 @@ tjocka porrfilmsmustaschen, mer sällan med den glesare försäljarmustaschen
 och nästan aldrig helt utan stasche. Både män och kvinnor använder sig 
 ogenerat av den västtyska hockeyn och kvinnorna kompletterar ofta med 
 en "Jätte-Sherwood" under armarna istället för stasche. 
-
-
 
 ## Intressen:
 Tysk hårdporr, ölfestivaler, lederhosen och wienerschnizel.

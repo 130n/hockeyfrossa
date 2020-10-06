@@ -1,5 +1,5 @@
 import Layout from '../../components/layout'
-import { getAllFrisyrIds, getPostData } from '../../lib/posts'
+import { getAllFrisyrIds, getFrisyrData } from '../../lib/frillor'
 import Head from 'next/head'
 import Date from '../../components/date'
 import utilStyles from '../../styles/utils.module.css'
@@ -13,9 +13,9 @@ export default function Post({ postData }) {
       <article>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
         <div className={utilStyles.lightText}>
-          <Date dateString={postData.date} />
+          <Date dateString={postData.date}/>
         </div>
-        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }}/>
       </article>
     </Layout>
   )
@@ -30,7 +30,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const postData = await getPostData(params.id)
+  const postData = await getFrisyrData(params.id)
   return {
     props: {
       postData
