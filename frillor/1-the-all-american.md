@@ -1,9 +1,8 @@
 ---
 title: "The All-American Hockey"
 date: "2001-11-07"
+number: 1
 ---
-
-# 1
 
 ![allamerican1](/images/allamerican1.jpg) ![allamerican2](/images/allamerican2.jpg)
 

@@ -1,9 +1,10 @@
 ---
 title: "Sydstatshockey"
 date: "2001-11-07"
+number: 2
 ---
 
-# 2
+![sydstats1](/images/sydstats1.gif) ![sydstats2](/images/sydstats2.jpg)
 
 "Sydstatshockeyn" påminner i mångt och mycket om "The All-American Hockey", men är mer distinkt i sitt utseende då man under inga omständigheter kombinerar den med en yvig topp. Toppen är alltid kort, inte nödvändigtvis stubb, men alltid kort. I nacken har man också begränsat längden, axellängd, varken längre eller kortare. Här har man tänkt på funktionalitet. En längre topp kan t.ex. lätt vara i vägen vid en vanlig korsbränning och en "Ponytailhockey" gör sig inte snyggt under klankåpan.
 

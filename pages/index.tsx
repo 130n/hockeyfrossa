@@ -4,26 +4,12 @@ import utilStyles from '../styles/utils.module.css'
 import { getSortedFrisyrData } from '../lib/frillor'
 import Link from 'next/link'
 import Date from '../components/date'
+import {Sidenav} from '../components/sidenav'
 
 export default function Home({ allPostsData }: { allPostsData: { date: string; title: string; id: string }[] }) {
   return (
     <>
-      <nav className={`${utilStyles.sidenav}`}>
-        <h2 className={utilStyles.headingLg}>Frisyrer</h2>
-        <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <Link href={`/frillor/${id}`}>
-                <a>{title}</a>
-              </Link>
-              <br/>
-              <small className={utilStyles.lightText}>
-                <Date dateString={date}/>
-              </small>
-            </li>
-          ))}
-        </ul>
-      </nav>
+      <Sidenav allPostsData={allPostsData} />
       <Layout home>
         <Head>
           <title>{siteTitle}</title>
