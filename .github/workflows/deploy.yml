@@ -1,5 +1,8 @@
 name: Deploy page
-on: push
+on:
+  push:
+    branches:
+      - master
 jobs:
   deploy:
     name: Deploy to gh-pages
@@ -16,6 +19,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@3.6.2
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BASE_BRANCH: master
           BRANCH: gh-pages # The branch the action should deploy to.
           FOLDER: out # The folder the action should deploy.
           CLEAN: true # Automatically remove deleted files from the deploy branch
