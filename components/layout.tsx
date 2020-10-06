@@ -3,7 +3,7 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = 'Hockeyfrossa'
+const name = 'Hockeyfrossa 2'
 export const siteTitle = 'Hockeyfrossa 2.0'
 
 export default function Layout({ children, home }: { children: React.ReactNode; home?: boolean }) {
@@ -11,10 +11,7 @@ export default function Layout({ children, home }: { children: React.ReactNode; 
     <div className={styles.container}>
       <Head>
         <link rel="icon" href="/favicon.ico"/>
-        <meta
-          name="description"
-          content="Learn how to build a personal website using Next.js"
-        />
+        <meta name="description" content="Klon av en gammal klassiker"/>
         <meta
           property="og:image"
           content={`https://og-image.now.sh/${encodeURI(
