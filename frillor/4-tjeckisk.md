@@ -1,7 +1,7 @@
 ---
 title: "Tjeckisk hockey"
 date: "2001-11-07"
-number: 3
+number: 4
 ---
 
 ![tjeckisk1](/images/tjeckisk1.jpg) ![tjeckisk2](/images/tjeckisk2.jpg)
